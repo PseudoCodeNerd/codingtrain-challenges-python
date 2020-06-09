@@ -59,6 +59,8 @@ pygame.init()
 # Create screen for showing viusalisation
 size = width, height = 2 * W, 2 * H
 screen = pygame.display.set_mode(size)
+pygame.display.set_caption("Starfield")
+
 
 # Create a surface on which we will draw our star, make it allow transparency
 circ = pygame.Surface((2 * STAR_SIZE, 2 * STAR_SIZE), pygame.SRCALPHA)
