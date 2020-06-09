@@ -8,7 +8,7 @@ This is the second challenge in [The Coding Train's](https://www.youtube.com/cha
 
 [Link to challenge](https://thecodingtrain.com/CodingChallenges/002-mengersponge.html)
 
-This code was contributed by Madhav Sharma (@pseudocodenerd)
+This code was contributed by Madhav Sharma ([@pseudocodenerd](https://github.com/pseudocodenerd))
 
 ## Demo
 
