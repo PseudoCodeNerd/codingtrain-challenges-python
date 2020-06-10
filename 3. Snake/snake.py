@@ -33,7 +33,7 @@ if __name__ == "__main__":
     # Color constants
     SNAKE_COLOR = 46, 125, 50
     FOOD_COLOR = 216, 67, 21
-    BLACK = 40, 40, 40
+    BG_COLOR = 40, 40, 40
 
     # Fix Window size according to number of pixels on screen
     WINDOW_HEIGHT = VERTICAL_PIXELS * PIXEL_SIZE
@@ -82,8 +82,8 @@ if __name__ == "__main__":
                     Sneko.yspeed = -PIXEL_SIZE
                     Sneko.xspeed = 0
 
-        # Fill the screen with black
-        screen.fill(BLACK)
+        # Fill the screen with BG_COLOR
+        screen.fill(BG_COLOR)
 
         # Move Snake head
         Sneko.x += Sneko.xspeed
