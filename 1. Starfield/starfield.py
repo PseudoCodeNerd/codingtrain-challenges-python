@@ -32,7 +32,7 @@ if __name__ == "__main__":
     BLACK = 0, 0, 0
 
     # Boolean to activate warp drive
-    isWarping = False
+    isWarping = True
 
     # Variable substitutions used in code so that zooming is centered on center of window 
     H = WINDOW_HEIGHT // 2
