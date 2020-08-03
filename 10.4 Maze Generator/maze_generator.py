@@ -40,7 +40,7 @@ class Cell:
         """
         temp = pygame.Surface((CELL_HEIGHT, CELL_WIDTH), pygame.SRCALPHA)
         pygame.draw.rect(temp, HIGHLIGHT, pygame.Rect(0, 0, CELL_WIDTH, CELL_HEIGHT))
-        self.surface.blit(temp, (self.col * CELL_WIDTH, self.row * CELL_HEIGHT)) 
+        self.surface.blit(temp, (self.col * CELL_WIDTH, self.row * CELL_HEIGHT))
 
     def check_neighbours(self):
         """
