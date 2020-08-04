@@ -3,7 +3,7 @@ A repo for Python implementations of all of [The Coding Train's](https://www.you
 
 Most of these are PyGame implementations, but some require the Processing.py library since the implementation depends on some features that Processing.py provides.
 
-This repo has been developed by [@PseudoCodeNerd](https://github.com/soumitradev/) and [@soumitradev](https://github.com/soumitradev/).
+This repo has been developed by [@PseudoCodeNerd (Madhav Sharma)](https://github.com/PseudoCodeNerd/) and [@soumitradev (Soumitra Shewale)](https://github.com/soumitradev/).
 
 More challenges are still being added, and this repo will be archived when we're done adding challenges.
 
