@@ -15,18 +15,10 @@ if __name__ == "__main__":
     import pygame
     import random
     import sys
-    import time
     
     # Set FPS
     FPS = 120
-
-    # Color constants
-    CELL_COLOR = 255, 255, 255
-    VISITED = 200, 200, 200 
-    WALL_COLOR = 0, 0, 0
-    HIGHLIGHT = 255, 100, 255
-    BG_COLOR = 0, 0, 0
-
+    
     # Some constants for the Gray-Scott Model
     D_A = 1
     D_B = 0.5
@@ -50,7 +42,7 @@ if __name__ == "__main__":
         for j in range(40, 60):
             grid[i][j].b = 1
 
-    # Apply convolution and return result of convolution
+    # Apply convolution and return result of convolution. Probably should do this with numpy
     def laplace(grid, x, y):
         s_a = grid[x][y].a * -1
         s_a += grid[x-1][y].a * 0.2
